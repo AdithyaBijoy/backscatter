@@ -7,6 +7,7 @@ The stdout (printf) has been directed to USB.
 - `backscatter.pio` provides an example output of `generate-backscatter-pio.py`
 - `backscatter.c` contains an example of generating a pseudorandom payload and using the generated backscatter driver
 - `CMakeList.txt`
+- convolutionl_code_generator.py helped to generate the convoluional code for the sync word. 
 
 ## Frame Structure
 | Header {10B} | Random Payload {Max. 60B} |
